@@ -510,10 +510,9 @@ Free to use for personal, commercial, and educational purposes.
 
 ## 📫 Contact & Links
 
-- **GitHub:** [github.com/your-username](https://github.com/your-username)
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- **Email:** your-email@example.com
-- **Portfolio:** [your-portfolio.com](https://your-portfolio.com)
+- **GitHub:** https://github.com/Cijas
+- **LinkedIn:** https://www.linkedin.com/in/lucas-mmarcal/
+- **Email:** lmarcal789@gmail.com
 
 ---
 
