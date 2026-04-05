@@ -170,7 +170,7 @@ git --version     # Any recent version
 
 ```bash
 # Clone or download the repository
-git clone https://github.com/cijas/data-pipeline-financial-analytics.git
+git clone https://github.com/your-username/data-pipeline-financial-analytics.git
 cd data-pipeline-financial-analytics
 
 # Create virtual environment
@@ -510,10 +510,10 @@ Free to use for personal, commercial, and educational purposes.
 
 ## 📫 Contact & Links
 
-- **GitHub:** [github.com/cijas](https://github.com/cijas)
-- **LinkedIn:** [linkedin.com/in/lucas-cijas](https://linkedin.com/in/lucas-cijas)
-- **Email:** lucas.marçal@example.com
-- **Portfolio:** [lucas-portfolio.com](https://lucas-portfolio.com)
+- **GitHub:** [github.com/your-username](https://github.com/your-username)
+- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+- **Email:** your-email@example.com
+- **Portfolio:** [your-portfolio.com](https://your-portfolio.com)
 
 ---
 

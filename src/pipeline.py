@@ -5,7 +5,7 @@ Financial Data Pipeline Orchestrator
 Main pipeline that orchestrates ingestion, transformation, and storage.
 Implements a three-layer data architecture: Raw → Trusted → Refined
 
-Author: Lucas
+Author: Data Engineering Team
 Date: 2024
 """
 

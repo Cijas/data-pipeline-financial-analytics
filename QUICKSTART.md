@@ -1,26 +1,26 @@
 # ⚡ Quick Start Guide
 
-## 5 Minutos para rodar o pipeline completo
+## 5 Minutes to Run the Complete Pipeline
 
-### Pré-requisitos
-- Python 3.10+ instalado
-- Git instalado (opcional)
+### Prerequisites
+- Python 3.10+ installed
+- Git installed (optional)
 
 ---
 
-## 🚀 Passo a Passo
+## 🚀 Step by Step
 
-### 1️⃣ Navegue até a pasta
+### 1️⃣ Navigate to the folder
 ```bash
-cd c:\Users\krndk\data-pipeline-financial-analytics
+cd data-pipeline-financial-analytics
 ```
 
-### 2️⃣ Crie um ambiente virtual
+### 2️⃣ Create a virtual environment
 ```bash
 python -m venv venv
 ```
 
-### 3️⃣ Ative o ambiente
+### 3️⃣ Activate the environment
 **Windows:**
 ```bash
 venv\Scripts\activate
@@ -31,19 +31,19 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 4️⃣ Instale as dependências
+### 4️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5️⃣ Execute o pipeline
+### 5️⃣ Run the pipeline
 ```bash
 cd src
 python pipeline.py
 ```
 
-### 6️⃣ Veja os resultados
-Os arquivos processados estarão em:
+### 6️⃣ View the results
+Processed files will be in:
 ```
 data/processed/
 ├── transactions.parquet
@@ -53,28 +53,26 @@ data/processed/
 
 ---
 
-## 📊 O que o pipeline gera?
+## 📊 What does the pipeline generate?
 
 ### transactions.parquet (~5MB)
-- 100K transações limpas e enriquecidas
-- 15+ colunas incluindo features temporais
-- Pronto para análise
+- 100K cleaned and enriched transactions
+- 15+ columns including temporal features
+- Ready for analysis
 
 ### customer_metrics.parquet (~500KB)
-- 5K clientes únicos
-- Gasto total, frequência, categorias
-- Datas de primeira/última transação
+- 5K unique customers
+- Total spending, frequency, categories
+- First/last transaction dates
 
 ### category_metrics.parquet (~100KB)
-- Métricas mensais por categoria
-- Volume, receita, tendências
-- Pronto para dashboard
+- Monthly metrics by category
+- Volume, revenue, trends
+- Ready for dashboard
 
 ---
 
-## 🔥 Próximas ações
-
-### Explorar os dados
+### Explore the data
 ```python
 import pandas as pd
 
@@ -83,17 +81,16 @@ print(df.head())
 print(df.describe())
 ```
 
-### Rodarmais transações (maior volume)
-No arquivo `src/pipeline.py`, mude:
+### Run more transactions
+In `src/pipeline.py`, change:
 ```python
-results = pipeline.run(source="mock", n_transactions=500000)  # 500K ao invés de 100K
+results = pipeline.run(source="mock", n_transactions=500000)
 ```
 
-### Executar queries SQL
-Abra o arquivo `sql/analytics_queries.sql` para ver 8+ queries prontas.
-Adapte e rodeem seu banco SQL favorito.
+### Run SQL queries
+Open file `sql/analytics_queries.sql` to see 8+ ready-to-run queries.
 
-### Criar notebook
+### Create a notebook
 ```bash
 jupyter notebook notebooks/exploration.ipynb
 ```
@@ -102,25 +99,25 @@ jupyter notebook notebooks/exploration.ipynb
 
 ## ❓ Troubleshooting
 
-### Erro: "module not found"
-**Solução:** Certifique-se que o ambiente virtual está ativado:
+### Error: "module not found"
+**Solution:** Make sure the virtual environment is activated:
 ```bash
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Erro: "ModuleNotFoundError: No module named 'pandas'"
-**Solução:** Instale as dependências:
+### Error: "ModuleNotFoundError: No module named 'pandas'"
+**Solution:** Install dependencies:
 ```bash
 pip install pandas pyspark numpy python-dotenv
 ```
 
-### Erro: "Permission denied"
-**Solução (Windows):** Execute PowerShell como administrador
+### Error: "Permission denied"
+**Solution (Windows):** Run PowerShell as administrator
 
 ---
 
-## 📈 Exemplo de output esperado
+## 📈 Expected output example
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -167,13 +164,13 @@ DATA QUALITY METRICS
 
 ---
 
-## 💡 Dicas
+## 💡 Tips
 
-- **Para entender o código:** Leia primeiro `src/ingestion.py`, depois `transformation.py`, finalmente `pipeline.py`
-- **Para modificar:** Cada arquivo tem documentação inline nos comentários
-- **Para deployar:** Veja a seção "Production Deployment" no README.md
-- **Para portfólio:** Publique no GitHub e adicione à sua bio!
+- **To understand the code:** Read `src/ingestion.py` first, then `transformation.py`, finally `pipeline.py`
+- **To modify:** Each file has inline documentation in comments
+- **To deploy:** See the "Production Deployment" section in README.md
+- **For portfolio:** Publish on GitHub and add to your bio!
 
 ---
 
-**Pronto para impressionar! 🚀**
+**Ready to impress! 🚀**

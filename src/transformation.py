@@ -5,7 +5,7 @@ Data Transformation Module
 Core transformations for financial data pipeline.
 Handles data cleaning, enrichment, and feature engineering.
 
-Author: Lucas
+Author: Data Engineering Team
 Date: 2024
 """
 

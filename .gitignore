@@ -205,3 +205,89 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================
+# SECURITY: Sensitive Data & Credentials
+# ============================================================
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+.env.*.example
+env.local
+env.*.local
+
+# AWS credentials
+.aws/
+.aws-credentials
+aws_credentials
+
+# Google Cloud credentials
+.gcp/
+.gcp-credentials
+google_credentials.json
+service-account-*.json
+
+# Azure credentials
+.azure/
+.azure-credentials
+
+# SSH keys and certificates
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.pub
+id_ed25519
+private_key
+
+# API keys and tokens
+.apikey
+.api_key
+*.apikey
+*.api_key
+token.txt
+oauth_token
+
+# Database credentials
+db_credentials
+database_url
+*.db.config
+
+# Local configuration files
+local.ini
+local.cfg
+personal_config.yaml
+
+# IDE local settings with sensitive data
+.vscode/settings.local.json
+.idea/workspace.xml
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Data files (optional - uncomment if storing real sensitive data)
+# data/raw/*.csv
+# data/processed/*.parquet
+# *.xlsx
+# *.xls
+
+# Jupyter notebooks with sensitive outputs
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Command history with potentially sensitive commands
+.bash_history
+.zsh_history
+.python_history
+

@@ -5,7 +5,7 @@ Data Ingestion Module
 Handles ingestion of financial transaction data from various sources.
 Supports CSV and API-based ingestion patterns.
 
-Author: Lucas
+Author: Data Engineering Team
 Date: 2024
 """
 
