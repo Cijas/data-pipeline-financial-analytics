@@ -121,7 +121,64 @@ Use este arquivo para acompanhar seu progresso. Marque cada item conforme comple
 
 ---
 
-## 🌐 PUBLICAÇÃO NO GITHUB
+## � CODE QUALITY VERIFICATION
+
+### Style & Linting
+
+- [ ] **PEP 8 Compliance**:
+  - [ ] Instalou `pip install flake8`
+  - [ ] Executou `flake8 src/ tests/ --max-line-length=120`
+  - [ ] Confirmou ≤3 warnings (design choices only)
+  - [ ] Zero import ordering issues
+
+- [ ] **Pylint Analysis**:
+  - [ ] Instalou `pip install pylint`
+  - [ ] Executou `pylint src/`  
+  - [ ] Score ≥ 7.5/10 (Production grade)
+  - [ ] Revisou warnings e confirmou aceitáveis
+
+### Code Coverage
+
+- [ ] **Test Coverage**:
+  - [ ] Instalou `pip install pytest-cov`
+  - [ ] Executou `pytest tests/ --cov=src --cov-report=html`
+  - [ ] Coverage ≥ 75% (target: 80%+)
+  - [ ] Gerou relatório HTML
+
+- [ ] **Test Results**:
+  - [ ] Executou `pytest tests/test_pipeline.py -v`
+  - [ ] Todos 7 testes passando
+  - [ ] 100% pass rate confirmado
+
+### Documentation Standards
+
+- [ ] **Type Hints**:
+  - [ ] Todas funções têm type hints
+  - [ ] Return types definidos
+  - [ ] Imports `from typing import Tuple, Dict`, etc
+
+- [ ] **Docstrings**:
+  - [ ] Google-style docstrings em todos módulos
+  - [ ] Function docstrings completos
+  - [ ] Args, Returns e Raises documentados
+  - [ ] Exemplos de uso quando apropriado
+
+- [ ] **Logging**:
+  - [ ] Logging calls usam lazy % formatting
+  - [ ] Nem f-strings nem .format() em logs
+  - [ ] Log levels apropriados (INFO, ERROR, DEBUG)
+
+### Quality Report
+
+- [ ] **CODE_QUALITY.md criado**:
+  - [ ] Arquivo contém compliance metrics
+  - [ ] Before/after Flake8 scores documentado
+  - [ ] Test coverage por módulo listado
+  - [ ] Standards implementados explicados
+
+---
+
+## �🌐 PUBLICAÇÃO NO GITHUB
 
 ### Preparação
 
