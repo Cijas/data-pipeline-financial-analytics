@@ -154,7 +154,7 @@ DATA QUALITY METRICS
   data_loss_percent: 0.5
   unique_customers: 5000
   unique_categories: 6
-  date_range: 2024-10-19 to 2025-04-04
+  date_range: 2024-10-19 to 2026-04-04
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                    PIPELINE EXECUTION COMPLETED SUCCESSFULLY                  ║

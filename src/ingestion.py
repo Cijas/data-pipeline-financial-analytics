@@ -6,7 +6,7 @@ Handles ingestion of financial transaction data from various sources.
 Supports CSV and API-based ingestion patterns.
 
 Author: Data Engineering Team
-Date: 2024
+Date: April 2026
 """
 
 import logging

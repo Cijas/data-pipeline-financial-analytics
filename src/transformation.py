@@ -6,7 +6,7 @@ Core transformations for financial data pipeline.
 Handles data cleaning, enrichment, and feature engineering.
 
 Author: Data Engineering Team
-Date: 2024
+Date: April 2026
 """
 
 import logging
