@@ -6,7 +6,7 @@ Main pipeline that orchestrates ingestion, transformation, and storage.
 Implements a three-layer data architecture: Raw → Trusted → Refined
 
 Author: Data Engineering Team
-Date: 2024
+Date: April 2026
 """
 
 import logging
